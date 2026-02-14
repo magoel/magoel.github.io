@@ -1,0 +1,50 @@
+# Manish Goel
+
+> Principal Engineer with 19+ years of expertise in systems architecture, performance engineering, and developer enablement.
+
+## Contact
+
+- Email: manish.dce@gmail.com
+- GitHub: https://github.com/magoel
+- Website: https://magoel.github.io/
+
+## Current Role
+
+Principal Software Engineer at Microsoft (Dec 2019 – Present)
+- Performance & Reliability for Microsoft Office (mobile and desktop)
+- Reduced mobile file-open latency by 55% (P95: 20s → 9s)
+- Raised reliability from 95% → 99.3%
+- Architected Meteor-stack (media-blob deferral) for Microsoft Word
+- Building AI agents for automated bug triage and troubleshooting
+
+## Previous Experience
+
+Lead Member of Consulting Staff at Mentor Graphics (Jun 2008 – Dec 2019)
+- Built high-performance utilities library 2× faster than C++ STL
+- Designed parallel simulation architecture for Questa Simulator
+- Created custom debugging/profiling infrastructure for JIT code
+
+Member of Technical Staff at Interra Systems (Aug 2006 – Jun 2008)
+- Designed SPOA (Spice-to-OpenAccess translator)
+
+## Skills
+
+- Languages: C/C++ (C++20), JavaScript, TypeScript, Python, Verilog, VHDL
+- Domains: Performance Engineering, Distributed Systems, EDA, Developer Tooling
+- Tools: GDB, Valgrind, VTune, GCC, Git, VS Code
+
+## Education
+
+- B.E. Electrical Engineering, Delhi College of Engineering (2002-2006) - Gold Medalist
+- PGDM Marketing & Finance, IIM Lucknow (2011-2013)
+
+## Key Strengths
+
+- Strong ownership mindset
+- Ability to simplify complex systems
+- Mentoring engineers to technical excellence
+- Cross-team leadership and alignment
+
+## Blog
+
+Visit https://magoel.github.io/blog/ for articles on engineering, performance, and software development.

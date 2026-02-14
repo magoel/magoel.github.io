@@ -2,6 +2,7 @@ module.exports = function(eleventyConfig) {
   // Copy static assets
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/llms.txt");
 
   // Create blog posts collection sorted by date (newest first)
   eleventyConfig.addCollection("posts", function(collectionApi) {
