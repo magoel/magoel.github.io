@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ description or 'Personal portfolio and blog of Manish Goel - Principal Engineer with 19+ years of expertise in systems architecture and performance engineering.' }}">
+  <title>{{ title }} | Manish Goel</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="/" class="nav-link{% if page.url == '/' %} active{% endif %}">Home</a>
+      <a href="/blog/" class="nav-link{% if '/blog' in page.url %} active{% endif %}">Blog</a>
+    </nav>
+  </header>
+
+  <main class="main-content">
+    {{ content | safe }}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2006–{{ page.date.getFullYear() or 2026 }} Manish Goel. Built with <a href="https://www.11ty.dev/">Eleventy</a>.</p>
+  </footer>
+</body>
+</html>
